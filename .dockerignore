@@ -1,0 +1,42 @@
+# Environment files
+.env
+.venv
+venv
+*.pyc
+__pycache__/
+
+# Ignore test files and directories
+tests/
+test*.py
+*/tests/*
+**/tests/**
+
+# Debug and log files
+*.log
+debug.txt
+
+# Git-related files
+.git
+.gitignore
+
+# Docker-related files
+docker-compose.yml
+Dockerfile
+
+# Temporary files and directories
+tmp/
+temp/
+*/tmp/*
+*/temp/*
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# System files
+System Volume Information/

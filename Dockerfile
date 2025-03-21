@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # webserver, with one worker process and 8 threads.
 # For environments with multiple CPU cores, increase the number of workers
 # to be equal to the cores available.
-CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT} --workers 1
+CMD exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT} --workers 1
